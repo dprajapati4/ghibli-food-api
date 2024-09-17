@@ -1,0 +1,18 @@
+[
+  {
+    "id": "1",
+    "name": "Ramen",
+    "movie": "Ponyo",
+    "description": "Delicious ramen with eggs and pork, made by Sousuke’s mother.",
+    "ingredients": ["noodles", "egg", "pork", "green onions"],
+    "imageUrl": "http://example.com/ramen.png"
+  },
+  {
+    "id": "2",
+    "name": "Bento Box",
+    "movie": "My Neighbor Totoro",
+    "description": "Satsuki prepares a bento box for her family.",
+    "ingredients": ["rice", "vegetables", "fish"],
+    "imageUrl": "http://example.com/bento.png"
+  }
+]
