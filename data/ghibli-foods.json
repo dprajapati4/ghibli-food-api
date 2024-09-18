@@ -1,18 +1,410 @@
 [
   {
     "id": "1",
-    "name": "Ramen",
-    "movie": "Ponyo",
-    "description": "Delicious ramen with eggs and pork, made by Sousuke’s mother.",
-    "ingredients": ["noodles", "egg", "pork", "green onions"],
-    "imageUrl": "http://example.com/ramen.png"
+    "movie": "Spirited Away",
+    "foods": [
+      {
+        "name": "Steamed pork buns",
+        "description": "Soft steamed buns filled with seasoned pork, popular in street food stalls.",
+        "ingredients": ["Pork", "Flour", "Yeast", "Soy sauce", "Sugar"],
+        "characters": ["Chihiro", "Haku"]
+      },
+      {
+        "name": "Roast chicken with herbs",
+        "description": "Oven-roasted chicken seasoned with fresh herbs and served with vegetables.",
+        "ingredients": [
+          "Chicken",
+          "Rosemary",
+          "Garlic",
+          "Olive oil",
+          "Vegetables"
+        ],
+        "characters": ["Chihiro's parents"]
+      },
+      {
+        "name": "Rice porridge with pickled vegetables",
+        "description": "Warm rice porridge served with tangy pickled vegetables for a comforting meal.",
+        "ingredients": ["Rice", "Water", "Pickled vegetables"],
+        "characters": ["Chihiro"]
+      },
+      {
+        "name": "Red bean buns",
+        "description": "Sweet buns filled with smooth red bean paste, a popular snack in Japan.",
+        "ingredients": ["Flour", "Red beans", "Sugar", "Yeast"],
+        "characters": ["Lin"]
+      },
+      {
+        "name": "Noodles with boiled eggs and broth",
+        "description": "Simple noodles served in a flavorful broth with boiled eggs and vegetables.",
+        "ingredients": ["Noodles", "Eggs", "Broth", "Green onions"],
+        "characters": ["Chihiro", "No-Face"]
+      },
+      {
+        "name": "Fried fish",
+        "description": "Crispy fried fish served as a savory snack or meal.",
+        "ingredients": ["Fish", "Flour", "Oil", "Salt"],
+        "characters": ["Chihiro", "No-Face"]
+      },
+      {
+        "name": "Seafood stir-fry",
+        "description": "A stir-fry of mixed seafood with vegetables in a savory sauce.",
+        "ingredients": ["Shrimp", "Squid", "Vegetables", "Soy sauce"],
+        "characters": ["Chihiro", "No-Face"]
+      }
+    ]
   },
   {
     "id": "2",
-    "name": "Bento Box",
     "movie": "My Neighbor Totoro",
-    "description": "Satsuki prepares a bento box for her family.",
-    "ingredients": ["rice", "vegetables", "fish"],
-    "imageUrl": "http://example.com/bento.png"
+    "foods": [
+      {
+        "name": "Bento box with rice, pickles, and grilled fish",
+        "description": "A traditional Japanese bento with rice, pickled vegetables, and grilled fish.",
+        "ingredients": ["Rice", "Pickled vegetables", "Fish"],
+        "characters": ["Satsuki", "Mei"]
+      },
+      {
+        "name": "Corn on the cob with butter",
+        "description": "Fresh corn on the cob, steamed and served with butter.",
+        "ingredients": ["Corn", "Butter"],
+        "characters": ["Satsuki", "Mei"]
+      },
+      {
+        "name": "Fresh vegetable salad",
+        "description": "A simple salad made with fresh vegetables from the family garden.",
+        "ingredients": ["Lettuce", "Tomatoes", "Cucumbers", "Carrots"],
+        "characters": ["Satsuki", "Mei"]
+      },
+      {
+        "name": "Rice balls (onigiri) with seaweed",
+        "description": "Traditional rice balls wrapped in seaweed, often served as a quick snack.",
+        "ingredients": ["Rice", "Seaweed", "Salt"],
+        "characters": ["Totoro"]
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "movie": "Kiki's Delivery Service",
+    "foods": [
+      {
+        "name": "Fluffy pancakes with syrup",
+        "description": "Thick, fluffy pancakes served with syrup and butter.",
+        "ingredients": ["Flour", "Eggs", "Milk", "Syrup"],
+        "characters": ["Kiki", "Osono"]
+      },
+      {
+        "name": "Herring and pumpkin pot pie",
+        "description": "A savory pie filled with herring and pumpkin, a signature dish from the bakery.",
+        "ingredients": ["Herring", "Pumpkin", "Pie crust", "Herbs"],
+        "characters": ["Kiki", "Osono"]
+      },
+      {
+        "name": "Artisan bread loaf",
+        "description": "A crusty loaf of freshly baked bread, perfect for any meal.",
+        "ingredients": ["Flour", "Yeast", "Salt", "Water"],
+        "characters": ["Osono"]
+      },
+      {
+        "name": "Hot chocolate with whipped cream",
+        "description": "Rich, creamy hot chocolate topped with whipped cream.",
+        "ingredients": ["Milk", "Cocoa powder", "Sugar", "Whipped cream"],
+        "characters": ["Kiki", "Tombo"]
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "movie": "Howl's Moving Castle",
+    "foods": [
+      {
+        "name": "Bacon and eggs with thick-cut bread",
+        "description": "Crispy bacon and fried eggs served with thick slices of bread.",
+        "ingredients": ["Bacon", "Eggs", "Bread", "Butter"],
+        "characters": ["Howl", "Calcifer", "Sophie"]
+      },
+      {
+        "name": "Homemade bread loaf",
+        "description": "A soft and warm homemade bread loaf, perfect for sandwiches.",
+        "ingredients": ["Flour", "Yeast", "Salt", "Water"],
+        "characters": ["Sophie"]
+      },
+      {
+        "name": "Beef stew with vegetables",
+        "description": "A hearty stew made with tender beef and fresh vegetables.",
+        "ingredients": ["Beef", "Carrots", "Potatoes", "Onions"],
+        "characters": ["Sophie", "Howl"]
+      },
+      {
+        "name": "Sophie’s homemade vegetable lunch",
+        "description": "A simple vegetable lunch prepared with love by Sophie.",
+        "ingredients": ["Carrots", "Potatoes", "Cabbage", "Salt"],
+        "characters": ["Sophie"]
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "movie": "Ponyo",
+    "foods": [
+      {
+        "name": "Instant ramen with ham, egg, and green onions",
+        "description": "Quick and easy instant ramen topped with ham, egg, and green onions.",
+        "ingredients": ["Ramen noodles", "Ham", "Egg", "Green onions"],
+        "characters": ["Sosuke", "Ponyo", "Lisa"]
+      },
+      {
+        "name": "Honey ginger tea",
+        "description": "A warm, soothing tea made with honey and ginger.",
+        "ingredients": ["Honey", "Ginger", "Tea"],
+        "characters": ["Lisa"]
+      },
+      {
+        "name": "Fried chicken drumsticks",
+        "description": "Crispy fried chicken drumsticks served as a snack or meal.",
+        "ingredients": ["Chicken", "Flour", "Oil", "Salt"],
+        "characters": ["Lisa"]
+      },
+      {
+        "name": "Milk pudding",
+        "description": "A sweet and creamy pudding made with milk.",
+        "ingredients": ["Milk", "Sugar", "Gelatin"],
+        "characters": ["Sosuke", "Ponyo"]
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "movie": "The Secret World of Arrietty",
+    "foods": [
+      {
+        "name": "Sugar cubes for tea",
+        "description": "Tiny sugar cubes used by Arrietty and her family for sweetening tea.",
+        "ingredients": ["Sugar"],
+        "characters": ["Arrietty", "Pod", "Homily"]
+      },
+      {
+        "name": "Herbal tea blend",
+        "description": "A blend of herbs steeped to make a soothing tea.",
+        "ingredients": ["Herbs", "Water"],
+        "characters": ["Arrietty", "Homily"]
+      },
+      {
+        "name": "Miniature fruit tarts",
+        "description": "Tiny, delicate tarts filled with fruit and cream, scaled for Arrietty’s size.",
+        "ingredients": ["Flour", "Butter", "Cream", "Fruit"],
+        "characters": ["Arrietty", "Pod"]
+      },
+      {
+        "name": "Miniature stuffed vegetables",
+        "description": "Stuffed vegetables prepared on a miniature scale for the Borrowers.",
+        "ingredients": ["Vegetables", "Rice", "Herbs"],
+        "characters": ["Arrietty", "Pod", "Homily"]
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "movie": "Castle in the Sky",
+    "foods": [
+      {
+        "name": "Swedish-style meatballs with gravy",
+        "description": "Savory meatballs served with rich brown gravy, inspired by Swedish cuisine.",
+        "ingredients": ["Beef", "Bread crumbs", "Cream", "Gravy"],
+        "characters": ["Pazu", "Sheeta"]
+      },
+      {
+        "name": "Crusty bread loaf",
+        "description": "A crusty loaf of bread perfect for dipping in soups or stews.",
+        "ingredients": ["Flour", "Yeast", "Salt"],
+        "characters": ["Pazu"]
+      },
+      {
+        "name": "Hearty vegetable stew",
+        "description": "A warm and filling stew made with fresh vegetables and herbs.",
+        "ingredients": ["Carrots", "Potatoes", "Onions", "Herbs"],
+        "characters": ["Pazu", "Sheeta"]
+      },
+      {
+        "name": "Soup with ham, eggs, and vegetables",
+        "description": "A comforting soup made with ham, boiled eggs, and mixed vegetables.",
+        "ingredients": ["Ham", "Eggs", "Vegetables", "Broth"],
+        "characters": ["Pazu", "Sheeta"]
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "movie": "The Wind Rises",
+    "foods": [
+      {
+        "name": "Soba noodles with dipping sauce",
+        "description": "Cold soba noodles served with a savory dipping sauce, perfect for a light meal.",
+        "ingredients": ["Soba noodles", "Soy sauce", "Mirin", "Dashi"],
+        "characters": ["Jiro", "Naoko"]
+      },
+      {
+        "name": "Grilled fish with soy sauce",
+        "description": "A simple dish of grilled fish with a light soy sauce glaze.",
+        "ingredients": ["Fish", "Soy sauce", "Salt"],
+        "characters": ["Jiro", "Naoko"]
+      },
+      {
+        "name": "Butter toast",
+        "description": "Toasted bread spread with creamy butter, served as a snack or breakfast.",
+        "ingredients": ["Bread", "Butter"],
+        "characters": ["Jiro"]
+      },
+      {
+        "name": "Pickled vegetables",
+        "description": "Tangy and crunchy pickled vegetables, served as a side dish.",
+        "ingredients": ["Cucumbers", "Carrots", "Vinegar", "Salt"],
+        "characters": ["Jiro", "Naoko"]
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "movie": "Whisper of the Heart",
+    "foods": [
+      {
+        "name": "Spaghetti with homemade meat sauce",
+        "description": "A hearty pasta dish with a rich, homemade meat sauce.",
+        "ingredients": [
+          "Spaghetti",
+          "Tomatoes",
+          "Ground beef",
+          "Onions",
+          "Garlic"
+        ],
+        "characters": ["Shizuku", "Seiji"]
+      },
+      {
+        "name": "Fried chicken with herbs",
+        "description": "Golden fried chicken seasoned with a blend of herbs.",
+        "ingredients": ["Chicken", "Flour", "Herbs", "Oil"],
+        "characters": ["Shizuku"]
+      },
+      {
+        "name": "Club sandwiches",
+        "description": "Layered sandwiches filled with ham, cheese, lettuce, and tomatoes.",
+        "ingredients": ["Bread", "Ham", "Cheese", "Lettuce", "Tomatoes"],
+        "characters": ["Shizuku"]
+      }
+    ]
+  },
+  {
+    "id": "10",
+    "movie": "The Cat Returns",
+    "foods": [
+      {
+        "name": "Baked fish with herbs",
+        "description": "Freshly baked fish seasoned with a blend of herbs, served with a side of vegetables.",
+        "ingredients": ["Fish", "Herbs", "Lemon", "Vegetables"],
+        "characters": ["Haru", "Baron"]
+      },
+      {
+        "name": "Assorted fruit and cream cakes",
+        "description": "Delicate cakes filled with cream and topped with fresh fruits.",
+        "ingredients": [
+          "Flour",
+          "Butter",
+          "Cream",
+          "Strawberries",
+          "Blueberries"
+        ],
+        "characters": ["Baron", "Muta"]
+      },
+      {
+        "name": "Earl Grey tea with lemon",
+        "description": "A classic cup of Earl Grey tea served with a slice of lemon.",
+        "ingredients": ["Earl Grey tea", "Lemon", "Sugar"],
+        "characters": ["Haru", "Baron"]
+      }
+    ]
+  },
+  {
+    "id": "11",
+    "movie": "Porco Rosso",
+    "foods": [
+      {
+        "name": "Ham and cheese sandwiches",
+        "description": "Simple yet satisfying sandwiches made with ham, cheese, and fresh bread.",
+        "ingredients": ["Ham", "Cheese", "Bread", "Butter"],
+        "characters": ["Porco Rosso"]
+      },
+      {
+        "name": "Red wine and cheese platter",
+        "description": "A sophisticated platter of assorted cheeses served with red wine.",
+        "ingredients": ["Cheese", "Red wine"],
+        "characters": ["Porco Rosso"]
+      },
+      {
+        "name": "Roast chicken with rosemary",
+        "description": "Juicy roast chicken flavored with rosemary, served with vegetables.",
+        "ingredients": ["Chicken", "Rosemary", "Garlic", "Olive oil"],
+        "characters": ["Porco Rosso"]
+      }
+    ]
+  },
+  {
+    "id": "12",
+    "movie": "From Up on Poppy Hill",
+    "foods": [
+      {
+        "name": "Rice with pickles and fried fish",
+        "description": "A traditional Japanese meal of rice served with fried fish and pickles.",
+        "ingredients": ["Rice", "Pickled vegetables", "Fish"],
+        "characters": ["Umi", "Shun"]
+      },
+      {
+        "name": "Miso soup with tofu",
+        "description": "A comforting bowl of miso soup with soft tofu and green onions.",
+        "ingredients": ["Miso paste", "Tofu", "Green onions", "Dashi"],
+        "characters": ["Umi", "Shun"]
+      },
+      {
+        "name": "Fried eggs with soy sauce",
+        "description": "Simple fried eggs topped with a drizzle of soy sauce, perfect for breakfast.",
+        "ingredients": ["Eggs", "Soy sauce", "Oil"],
+        "characters": ["Umi"]
+      },
+      {
+        "name": "Cucumber sandwiches",
+        "description": "Light sandwiches made with cucumber slices and soft butter.",
+        "ingredients": ["Cucumbers", "Bread", "Butter"],
+        "characters": ["Umi", "Shun"]
+      }
+    ]
+  },
+  {
+    "id": "13",
+    "movie": "When Marnie Was There",
+    "foods": [
+      {
+        "name": "Fluffy pancakes with fresh berries",
+        "description": "Light and fluffy pancakes served with a medley of fresh berries.",
+        "ingredients": ["Flour", "Eggs", "Milk", "Berries"],
+        "characters": ["Anna", "Marnie"]
+      },
+      {
+        "name": "English tea with milk",
+        "description": "A traditional cup of English tea served with milk.",
+        "ingredients": ["Tea", "Milk", "Sugar"],
+        "characters": ["Marnie"]
+      },
+      {
+        "name": "Scones with clotted cream",
+        "description": "Classic scones served with rich clotted cream and jam.",
+        "ingredients": ["Flour", "Butter", "Cream", "Jam"],
+        "characters": ["Anna", "Marnie"]
+      },
+      {
+        "name": "Tea sandwiches with cucumber",
+        "description": "Delicate tea sandwiches filled with cucumber and cream cheese.",
+        "ingredients": ["Bread", "Cucumber", "Cream cheese"],
+        "characters": ["Marnie"]
+      }
+    ]
   }
 ]
